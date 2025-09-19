@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Follow my Instagram — prashant_ukg_</title>
+  <style>
+    :root{--bg1:#fdfbfb;--bg2:#ebedee}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    body{
+      display:grid;place-items:center;background:linear-gradient(135deg,#ff9a9e 0%, #fecfef 50%, #f6f7ff 100%);
+      color:#111
+    }
+    .card{
+      background:rgba(255,255,255,0.9);backdrop-filter:blur(6px);border-radius:16px;padding:36px 44px;text-align:center;box-shadow:0 10px 30px rgba(17,24,39,0.08);max-width:520px;width:92%;
+    }
+    h1{margin:0 0 12px;font-size:20px}
+    p{margin:0 0 22px;color:#444}
+    .btn{
+      display:inline-flex;align-items:center;gap:12px;padding:14px 20px;border-radius:12px;border:0;cursor:pointer;text-decoration:none;font-weight:600;font-size:16px;transition:transform .12s ease, box-shadow .12s ease;
+      background:linear-gradient(90deg,#f58529,#dd2a7b 50%,#8134AF);color:white;box-shadow:0 6px 18px rgba(0,0,0,0.12);
+    }
+    .btn:active{transform:translateY(1px)}
+    .btn:hover{box-shadow:0 12px 28px rgba(0,0,0,0.18);transform:translateY(-3px)}
+    .icon{width:22px;height:22px;display:inline-block}
+    .small{margin-top:14px;color:#666;font-size:13px}
+    @media (prefers-reduced-motion:reduce){.btn{transition:none}}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Hey — let's stay connected</h1>
+    <p>Click the button below to follow my Instagram account <strong>prashant_ukg_</strong>.</p>
+
+    <a class="btn" href="https://instagram.com/prashant_ukg_" target="_blank" rel="noopener noreferrer" aria-label="Follow prashant_ukg_ on Instagram">
+      <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <linearGradient id="g" x1="0" x2="1">
+          <stop offset="0" stop-color="#f58529"/>
+          <stop offset="0.5" stop-color="#dd2a7b"/>
+          <stop offset="1" stop-color="#8134AF"/>
+        </linearGradient>
+        <rect width="512" height="512" rx="100" fill="url(#g)" />
+        <path d="M256 156a100 100 0 1 0 0 200 100 100 0 0 0 0-200zm0 164a64 64 0 1 1 0-128 64 64 0 0 1 0 128z" fill="#fff"/>
+        <circle cx="384" cy="128" r="28" fill="#fff"/>
+      </svg>
+      Follow my Instagram account prashant_ukg_
+    </a>
+
+    <div class="small">Hosted easily on Netlify — just drag & drop this file or connect a Git repo.</div>
+  </main>
+</body>
+</html>
